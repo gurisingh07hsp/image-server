@@ -36,6 +36,14 @@ app.use("/api/upload", uploadRoutes);
 app.use("/images",express.static("storage/images"));
 app.use(multerErrorHandler);
 
+
+app.get('/', (req,res) => {
+    res.json({
+        success: true,
+        message: 'Image Server is running!'
+    })
+})
+
 app.get("/health", (_, res) => {
     res.json({
         success: true,

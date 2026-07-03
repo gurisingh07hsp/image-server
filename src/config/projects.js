@@ -9,14 +9,4 @@ export const PROJECTS = {
             "documents"
         ]
     },
-
-    college: {
-        apiKey: process.env.COLLEGE_API_KEY,
-        jwtSecret: process.env.COLLEGE_JWT_SECRET,  
-        folders: [
-            "students",
-            "teachers",
-            "events"
-        ]
-    }
 };

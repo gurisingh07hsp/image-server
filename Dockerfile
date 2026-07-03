@@ -10,6 +10,6 @@ COPY . .
 
 RUN mkdir -p storage/images
 
-EXPOSE 5001
+EXPOSE 5000
 
 CMD ["npm", "start"]

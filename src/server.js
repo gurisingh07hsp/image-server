@@ -10,7 +10,7 @@ setInterval(() => {
 
 }, 30 * 60 * 1000);
 
-app.listen(PORT, "0.0.0.0", () => {
+const server = app.listen(PORT, "0.0.0.0", () => {
     console.log(`
 ======================================
 🚀 Image Server Started
